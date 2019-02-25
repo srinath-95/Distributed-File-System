@@ -1,0 +1,19 @@
+This a test file.This a tes
+This a file windwn
+This a git hdubns
+This a sjkdsnc xmc.
+This a This a test file.
+tring is a sequence of characters that is treated as a single data item and terminated by null character '\0'. 
+Remember that C language does not support strings as a data type. A string is actually one-dimensional array of characters in C language. 
+These are often used to create meaningful and readable programs.
+
+For example: The string "hello world" contains 12 characters including '\0' character which is automatically added by the compiler at the end of the string.
+In this assignment one distributed filesystem client (DFC) uploads and downloads to and
+from 4 distributed file servers (DFS1, DFS2, DFS3 and DFS4). DFS stands for distributed
+filesystem. The DFS servers are all running locally on a single machine with different
+port numbers, for e.g. from 10001 to 10004.
+When a DFC wants to upload a file to the 4 DFS servers, it first split the file in to 4 equal
+length pieces P1, P2, P3, P4 (a small length difference is acceptable if the total length
+cannot be divided by 4). Then the DFC groups the 4 pieces in to 4 pairs such as (P1, P2),
+(P2, P3), (P3, P4), (P4, P1). Finally, the DFC uploads them onto 4 DFS servers. So now the
+file has redundancy, 1 failed server will not affect the integrity of the file.

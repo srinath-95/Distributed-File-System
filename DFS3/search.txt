@@ -1,0 +1,4 @@
+foo3 1
+foo4.png 1
+foo3 2
+foo4.png 2
